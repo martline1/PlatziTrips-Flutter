@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "82745610349",
+    "project_id": "platzi-trips-e3159",
+    "storage_bucket": "platzi-trips-e3159.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82745610349:android:573305421a76bc9a636f64",
+        "android_client_info": {
+          "package_name": "com.example.platzilearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82745610349-6uf37o5ab6hb3hmqgcfg5pi6ohdu62eb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeaorWuExC-yN8gncsnqD8aQX8V7kscIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82745610349-6uf37o5ab6hb3hmqgcfg5pi6ohdu62eb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

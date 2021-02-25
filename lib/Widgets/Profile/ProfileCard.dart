@@ -51,7 +51,8 @@ class ProfileCard extends StatelessWidget {
 						children: <Widget>[
 							Container(
 								width: containerWidth * 0.73,
-								height: containerWidth * 0.35,
+								// height: containerWidth * 0.35,
+                                constraints: BoxConstraints(minHeight: containerWidth * 0.35),
 								decoration: BoxDecoration(
 									borderRadius: BorderRadius.all(Radius.circular(15)),
 									color: Colors.white,
@@ -89,14 +90,17 @@ class ProfileCard extends StatelessWidget {
 													),
 												),
 											),
-											Text(
-												"Steps: ${data.steps}",
-												style: TextStyle(
-													color: Colors.orange[700],
-													fontWeight: FontWeight.bold,
-													fontSize: 16
-												),
-											)
+											Container(
+                                                margin: EdgeInsets.only(bottom: 10),
+                                                child: Text(
+                                                    "Steps: ${data.steps}",
+                                                    style: TextStyle(
+                                                        color: Colors.orange[700],
+                                                        fontWeight: FontWeight.bold,
+                                                        fontSize: 16
+                                                    ),
+                                                ),
+                                            )
 										],
 									),
 								),
