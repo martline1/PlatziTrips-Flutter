@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "82745610349-j58sfsqnn49d5crihbrbntnrjcito8br.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.platzilearning",
+            "certificate_hash": "02cefb9311d1372e11d2ced130211f2cfce76802"
+          }
+        },
+        {
           "client_id": "82745610349-6uf37o5ab6hb3hmqgcfg5pi6ohdu62eb.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,6 +37,13 @@
             {
               "client_id": "82745610349-6uf37o5ab6hb3hmqgcfg5pi6ohdu62eb.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "82745610349-0b7ibthrqcv5f080vcs9sa35tabc75om.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.flutter.flutter.app"
+              }
             }
           ]
         }

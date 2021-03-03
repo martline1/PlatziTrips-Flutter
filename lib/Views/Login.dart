@@ -32,7 +32,9 @@ class Login extends StatelessWidget {
                 color: Colors.transparent,
                 child: InkWell(
                     borderRadius: BorderRadius.all(Radius.circular(15)),
-                    onTap: () {},
+                    onTap: () {
+						// context.read<AuthProvider>().signIn();
+					},
                     child: Center(
                         child: Row(children: [
                             Icon(
@@ -40,6 +42,7 @@ class Login extends StatelessWidget {
                                 color: Colors.white,
                             ),
                             Text(
+                                // "Login with Google ${context.watch<AuthProvider>().account.displayName}",
                                 "Login with Google",
                                 style: TextStyle(
                                     color: Colors.white,
